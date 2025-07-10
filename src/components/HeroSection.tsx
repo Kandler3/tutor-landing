@@ -20,7 +20,7 @@ const HeroSection: React.FC = () => {
         className="flex flex-col items-center"
       >
         <motion.img
-          src="/myphoto.png"
+          src={`${import.meta.env.BASE_URL}myphoto.png`}
           alt="Артём Ковальчук"
           className="rounded-full w-40 h-40 mb-8 shadow-2xl shadow-accent-neon-1/20 border-2 border-accent-neon-1/30"
           initial={{ opacity: 0, y: 40 }}
