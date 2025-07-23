@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import { motion } from 'framer-motion';
 import { ChevronDownIcon } from '@heroicons/react/24/outline';
-import { TELEGRAM_LINKS, ACCENT_COLOR } from '../config/links';
+import { TELEGRAM_LINKS } from '../config/links';
+import { ACCENT_COLOR } from '../config/colors';
 
 const HeroSection: React.FC = () => {
   return (
@@ -113,6 +114,3 @@ const HeroSection: React.FC = () => {
 };
 
 export default HeroSection;
-
-
-

@@ -1,7 +1,8 @@
 import React from 'react';
 import { FaTelegramPlane } from 'react-icons/fa';
 import { motion } from 'framer-motion';
-import { TELEGRAM_LINKS, ACCENT_COLOR } from '../config/links';
+import { TELEGRAM_LINKS } from '../config/links';
+import { ACCENT_COLOR } from '../config/colors';
 
 const ContactSection: React.FC = () => {
   return (
@@ -39,7 +40,3 @@ const ContactSection: React.FC = () => {
 };
 
 export default ContactSection;
-
-
-
-

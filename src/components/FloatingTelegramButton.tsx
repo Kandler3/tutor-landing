@@ -42,4 +42,3 @@ const FloatingTelegramButton: React.FC = () => {
 };
 
 export default FloatingTelegramButton;
-

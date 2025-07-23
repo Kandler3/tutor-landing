@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ACCENT_COLOR } from '../config/links';
+import { ACCENT_COLOR } from '../config/colors';
 
 const AboutSection: React.FC = () => {
   return (
@@ -50,6 +50,3 @@ const AboutSection: React.FC = () => {
 };
 
 export default AboutSection;
-
-
-

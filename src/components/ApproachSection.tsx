@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ACCENT_COLOR } from '../config/links';
+import { ACCENT_COLOR } from '../config/colors';
 
 const ApproachSection: React.FC = () => {
   return (
@@ -42,7 +42,3 @@ const ApproachSection: React.FC = () => {
 };
 
 export default ApproachSection;
-
-
-
-
